@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-06</title>
+    <title>goit-markup-hw-07</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
   </head>
   <body>
     <header>
-      <div class="container heder-container">
+      <div class="container header">
         <a href="index.html" lang="en" class="logo">Web<span class="logo-studio">Studio</span></a>
         <nav class="navigation">
           <ul class="list-header list">
@@ -64,109 +64,109 @@
           <button type="button" class="btn active-btn" data-modal-open>Заказать услугу</button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="close" data-modal-close>
-                <svg class="" width="11" height="11">
+              <button type="button" class="modal__btn-close" data-modal-close>
+                <svg class="modal__close" width="11" height="11">
                   <use href="./img/icons.svg#icon-close"></use>
                 </svg>
               </button>
-              <p class="modal-p">Оставьте свои данные, мы вам перезвоним</p>
+              <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
               <form name="modal-form">
-                <label class="modal-label">
-                  <span class="form-span">Имя</span>
-                  <div class="modal-field">
-                    <input class="modal-input" type="text" name="name" />
-                    <svg class="modal-svg" width="12" height="12">
+                <label class="modal-form__label form-text--decoration">
+                  <span class="modal-form__span">Имя</span>
+                  <div class="modal-form__field">
+                    <input class="modal-form__input" type="text" name="name" />
+                    <svg class="modal-form__icon modal-svg--decoration" width="12" height="12">
                       <use href="./img/icons.svg#icon-name"></use>
                     </svg>
                   </div>
                 </label>
-                <label class="modal-label">
-                  <span class="form-span">Телефон</span>
-                  <div class="modal-field">
-                    <input class="modal-input" type="text" name="phone" />
-                    <svg class="modal-svg" width="13" height="13">
+                <label class="modal-form__label form-text--decoration">
+                  <span class="modal-form__span">Телефон</span>
+                  <div class="modal-form__field">
+                    <input class="modal-form__input" type="text" name="phone" />
+                    <svg class="modal-form__icon modal-svg--decoration" width="13" height="13">
                       <use href="./img/icons.svg#icon-phone"></use>
                     </svg>
                   </div>
                 </label>
-                <label class="modal-label">
-                  <span class="form-span">Почта</span>
-                  <div class="modal-field">
-                    <input class="modal-input" type="email" name="email" />
-                    <svg class="modal-svg" width="15" height="13">
+                <label class="modal-form__label form-text--decoration">
+                  <span class="modal-form__span">Почта</span>
+                  <div class="modal-form__field">
+                    <input class="modal-form__input" type="email" name="email" />
+                    <svg class="modal-form__icon modal-svg--decoration" width="15" height="13">
                       <use href="./img/icons.svg#icon-email"></use>
                     </svg>
                   </div>
                 </label>
-                <label class="modal-label-coment"
-                  >Комментарий
+                <label class="form-text--decoration label--comment"
+                  ><span class="modal-form__span">Комментарий</span>
                   <textarea
-                    class="comment"
+                    class="modal-form__textarea comment--style"
                     id="comment"
                     name="comment"
                     placeholder="Введите текст"
                     rows="8"
                   ></textarea>
                 </label>
-                <label class="radio">
-                  <input class="visually-hidden checkbox" type="checkbox" />
-                  <svg class="modal-check" width="11" height="8">
+                <label class="modal-form__radio">
+                  <input class="visually-hidden modal-form__checkbox" type="checkbox" />
+                  <svg class="modal-form__svg-check svg--check" width="11" height="8">
                     <use href="./img/icons.svg#icon-check"></use>
                   </svg>
                   Соглашаюсь с рассылкой и принимаю
-                  <a href="" class="modal-link">Условия договора</a>
+                  <a href="" class="modal-form__link color--link">Условия договора</a>
                 </label>
-                <button class="modal-btn" type="submit">Отправить</button>
+                <button class="modal-form__btn btn--style" type="submit">Отправить</button>
               </form>
             </div>
           </div>
         </div>
       </section>
       <section class="section">
-        <div class="container">
+        <div class="container benefits">
           <h2 class="visually-hidden">Наши преимущества</h2>
-          <ul class="Benefits-list list">
-            <li class="benefits-block">
-              <div class="div-advantages">
-                <svg class="advantages" width="70" height="70">
+          <ul class="benefits__list list">
+            <li class="benefits__item">
+              <div class="benefits__advantages">
+                <svg class="benefits__icon-advantages" width="70" height="70">
                   <use href="./img/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="Benefits">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p class="Benefits-item">
+              <h3 class="benefits__title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="benefits__text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="benefits-block">
-              <div class="div-advantages">
-                <svg class="advantages" width="70" height="70">
+            <li class="benefits__item">
+              <div class="benefits__advantages">
+                <svg class="benefits__icon-advantages" width="70" height="70">
                   <use href="./img/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="Benefits">ПУНКТУАЛЬНОСТЬ</h3>
-              <p class="Benefits-item">
+              <h3 class="benefits__title">ПУНКТУАЛЬНОСТЬ</h3>
+              <p class="benefits__text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="benefits-block">
-              <div class="div-advantages">
-                <svg class="advantages" width="70" height="70">
+            <li class="benefits__item">
+              <div class="benefits__advantages">
+                <svg class="benefits__icon-advantages" width="70" height="70">
                   <use href="./img/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="Benefits">ПЛАНИРОВАНИЕ</h3>
-              <p class="Benefits-item">
+              <h3 class="benefits__title">ПЛАНИРОВАНИЕ</h3>
+              <p class="benefits__text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="benefits-block">
-              <div class="div-advantages">
-                <svg class="advantages" width="70" height="70">
+            <li class="benefits__item">
+              <div class="benefits__advantages">
+                <svg class="benefits__icon-advantages" width="70" height="70">
                   <use href="./img/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="Benefits">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p class="Benefits-item">
+              <h3 class="benefits__title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="benefits__text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
@@ -175,7 +175,7 @@
       </section>
       <section class="about section">
         <div class="container">
-          <h2 class="heading-two">Чем мы занимаемся</h2>
+          <h2 class="our-team__title">Чем мы занимаемся</h2>
           <ul class="our-work-list list">
             <li class="our-work-item">
               <p class="our-work-text">Десктопные приложения</p>
@@ -208,63 +208,63 @@
         </div>
       </section>
       <section class="section-team section">
-        <div class="container">
-          <h2 class="heading-two">Наша команда</h2>
-          <ul class="our-team list">
-            <li class="our-team-item">
+        <div class="container our-team">
+          <h2 class="our-team__title">Наша команда</h2>
+          <ul class="our-team__list">
+            <li class="our-team__item">
               <img src="./img/teams/ihor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-              <div class="wraper">
-                <h3 class="name">Игорь Демьяненко</h3>
-                <p lang="en" class="position">Product Designer</p>
-                <ul class="team-list list">
-                  <li class="team-link">
+              <div class="our-team__wraper">
+                <h3 class="our-team__name">Игорь Демьяненко</h3>
+                <p lang="en" class="our-team__position">Product Designer</p>
+                <ul class="our-team__list list">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -272,60 +272,60 @@
                 </ul>
               </div>
             </li>
-            <li class="our-team-item">
+            <li class="our-team__item">
               <img src="./img/teams/olha.jpg" alt="Ольга Репина" width="270" height="260" />
-              <div class="wraper">
-                <h3 class="name">Ольга Репина</h3>
-                <p lang="en" class="position">Frontend Developer</p>
-                <ul class="team-list list">
-                  <li class="team-link">
+              <div class="our-team__wraper">
+                <h3 class="our-team__name">Ольга Репина</h3>
+                <p lang="en" class="our-team__position">Frontend Developer</p>
+                <ul class="our-team__list list">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -333,61 +333,61 @@
                 </ul>
               </div>
             </li>
-            <li class="our-team-item">
+            <li class="our-team__item">
               <img src="./img/teams/nikolay.jpg" alt="Николай Тарасов" width="270" height="260" />
-              <div class="wraper">
-                <h3 class="name">Николай Тарасов</h3>
-                <p lang="en" class="position">Marketing</p>
+              <div class="our-team__wraper">
+                <h3 class="our-team__name">Николай Тарасов</h3>
+                <p lang="en" class="our-team__position">Marketing</p>
 
-                <ul class="team-list list">
-                  <li class="team-link list">
+                <ul class="our-team__list list">
+                  <li class="our-team__link list">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -395,60 +395,60 @@
                 </ul>
               </div>
             </li>
-            <li class="our-team-item">
+            <li class="our-team__item">
               <img src="./img/teams/misha.jpg" alt="Михаил Ермаков" width="270" height="260" />
-              <div class="wraper">
-                <h3 class="name">Михаил Ермаков</h3>
-                <p lang="en" class="position">UI Designer</p>
-                <ul class="team-list list">
-                  <li class="team-link">
+              <div class="our-team__wraper">
+                <h3 class="our-team__name">Михаил Ермаков</h3>
+                <p lang="en" class="our-team__position">UI Designer</p>
+                <ul class="our-team__list list">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-link">
+                  <li class="our-team__link">
                     <a
-                      class="team-social"
+                      class="our-team__social"
                       href=""
                       target="_blank"
                       aria-label="linkedin"
                       rel="noopener noreferrent"
                     >
-                      <svg class="team-icon" width="20" height="20">
+                      <svg class="our-team__icon" width="20" height="20">
                         <use href="./img/icons.svg#icon-linkedin"></use>
                       </svg>
                     </a>
