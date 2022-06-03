@@ -1,0 +1,16 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+@import './base/reset';
+
+@import './components/buttons';
+@import './components/social';
+@import './components/logo';
+@import './components/modal';
+
+@import './loyauts/header';
+@import './loyauts/main-page-1';
+@import './loyauts/main-page-2';
+@import './loyauts/footer';

@@ -1,0 +1,35 @@
+.our-team__social {
+  width: 44px;
+  height: 44px;
+  color: var(--main-bg-cl);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--hover-anim);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &:hover .our-team__icon,
+  &:focus .our-team__icon {
+    fill: var(--main-bg-cl);
+  }
+}
+.social-link {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color var(--hover-anim);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}

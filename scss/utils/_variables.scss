@@ -1,0 +1,25 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --sekondary-font: 'Raleway', sans-serif;
+    /*text colors*/
+    --accent-color: #2196f3;
+    --main-text-cl: #757575;
+    --secondary-text-cl: #212121;
+    --color-logo: #000000;
+    --clients-color: #afb1b8;
+    /*bg colors*/
+    --accent-bg-color: #2f303a;
+    --main-bg-cl: #ffffff;
+    --btn-hover-cl: #188ce8;
+    --section-team-color: #f5f4fa;
+    --our-team-color: #ffffff;
+    --header-color: #ececec;
+    --hero-color: rgba(47, 48, 58, 0.4);
+    --our-team: rgba(47, 48, 58, 0.8);
+    --color-description: rgba(33, 150, 243, 0.9);
+    --modal-color: rgba(0, 0, 0, 0.2);
+    --color-close: rgba(0, 0, 0, 0.1);
+    /* animation */
+    --modal-anim: 400ms linear;
+    --hover-anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
