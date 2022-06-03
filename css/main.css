@@ -187,6 +187,7 @@ img {
   border-radius: 4px;
   -webkit-transition: var(--hover-anim);
   transition: var(--hover-anim);
+  outline: transparent;
 }
 
 .btn-page-two:hover, .btn-page-two:focus {
@@ -247,6 +248,7 @@ img {
           justify-content: center;
   -webkit-transition: background-color var(--hover-anim);
   transition: background-color var(--hover-anim);
+  outline: transparent;
 }
 
 .our-team__social:hover, .our-team__social:focus {
@@ -274,6 +276,7 @@ img {
   border-radius: 50%;
   -webkit-transition: background-color var(--hover-anim);
   transition: background-color var(--hover-anim);
+  outline: transparent;
 }
 
 .social-link:hover, .social-link:focus {
@@ -845,9 +848,6 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.btn-container .btn-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
